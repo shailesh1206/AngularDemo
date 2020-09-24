@@ -1,5 +1,6 @@
 import { COURSES } from './../mock-courses';
 import { Course } from './../course';
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CoursesComponent implements OnInit {
 
-  course = COURSES;
+  courses = COURSES;
   selectedCourse: Course;
 
   constructor() { }
